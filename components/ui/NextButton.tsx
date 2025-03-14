@@ -2,7 +2,7 @@ import { ChevronRight } from "lucide-react";
 import SwiperInstance from "swiper";
 
 export interface SwiperButtonProps {
-  swiperRef: React.RefObject<SwiperInstance | null>; // Define the type for swiperRef
+  swiperRef: React.RefObject<SwiperInstance | null>;
 }
 
 const NextButton = ({ swiperRef }: SwiperButtonProps) => {
